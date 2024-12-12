@@ -1,0 +1,548 @@
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    margin-top: 0%;
+    padding: 0%;
+    background-image: url(../media/hoteles.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin-top: 4%;
+}
+
+.encabezado h2{
+    padding: 3%;
+    margin-top: 1%;
+}
+
+.image-conf{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-conf h2{
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.func-prin{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    height: 5%;
+    background-color: blue;
+    position: fixed;
+    align-items: center;
+}
+
+.func-prin h3{
+    color: blue;
+    margin: 1%;
+}
+
+.func-prin button{
+    background-color: blue;
+    width: 5%;
+    height: 100%;
+    margin-right: 2%;
+    transform: scale(1.5);
+    text-align: center;
+}
+
+.encabezado .subh{
+    text-align: left;
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 94%;
+    transform: translateY(-21%);
+}
+
+.text-conf-1{
+    width: 30%;
+    bottom: 100%;
+    text-align: center;
+}
+
+.text-conf-2{
+    width: 50%;
+    text-align: center;
+}
+
+.text-conf-3{
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    right: 200%;
+    height: auto;
+    width: 50%;
+}
+
+.image-container img {
+    width: 900%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    color: blue;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10%;
+    border-radius: 5%;
+}
+
+/* Posición de cada texto */
+#text1 {
+    left: 70%;
+    font-size: 200%;
+    width: 320%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text2 {
+    left: 60%;
+    width: 400%;
+}
+
+#text3 {
+    width: 500%;
+    left: 300%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    bottom: 5%;
+}
+
+#text4 {
+    left: 505%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    background-color: hsla(0, 100%, 50%, 0);
+    font-size: 120%;
+}
+
+#text5 {
+    left: 584%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    background-color: hsla(0, 100%, 50%, 0);
+    font-size: 120%;
+}
+
+#text6 {
+    left: 660%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    background-color: hsla(0, 100%, 50%, 0);
+    font-size: 120%;
+}
+
+#text7 {
+    left: 804%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    background-color: hsla(0, 100%, 50%, 0);
+    font-size: 120%;
+}
+
+#text8 {
+    padding: 2%;
+    width: 89%;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 0%;
+    color: black;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-130%);
+}
+
+.vcolumna{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.vcolumna2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentary{
+    width: 45%;
+    transform: translateY(-105%) scale(0.8);
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+.comentary2{
+    transform: translateY(-125%) scale(0.8);
+}
+
+.comentary:hover{
+}
+
+.text-lay {
+    display: flex;
+    color: blue;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 5%;
+    flex-direction: column;
+    top: 125%;
+    padding: 2%;
+    width: 15%;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 0%;
+    color: black;
+    border-radius: 15px;
+    align-items: center;
+    transform: scale(0.75) translateY(-20%);
+    z-index: 3;
+}
+
+.text-lay:hover{
+    transform: scale(1);
+}
+
+.text-lay .container{
+    flex-direction: column;
+    text-align: center;
+    transform: scale(0.9);
+}
+
+.text-lay img{
+    border-radius: 15px;
+}
+
+.text-lay-invertido{
+    flex-direction: row-reverse;
+}
+
+.text-lay2{
+    display: flex;
+    color: blue;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10%;
+    border-radius: 5%;
+    flex-direction: column;
+    top: 125%;
+    padding: 2%;
+    width: 90%;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 0%;
+    color: black;
+    border-radius: 15px;
+    margin: 1%;
+    align-items: center;
+}
+
+.prestadores {
+    display: flex;
+    color: blue;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10%;
+    border-radius: 5%;
+    flex-direction: row;
+    top: 125%;
+    padding: 2%;
+    width: 90%;
+    background-color: rgba(0, 255, 255, 0.5);
+    color: black;
+    margin: 1%;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    transform: scale(0.8) translateY(-90%);
+}
+.prestadores h2{
+    text-align: center;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: center;
+}
+.fila img{
+    width: 10%;
+    height: auto;
+    transform: scale(0.5);
+}
+.com{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2) translateY(200%);
+    width: 45%;
+}
+
+.form-container2{
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-80%);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.flexrower{
+    display: flex;
+    flex-direction: row;
+}
+.columnas{
+    display: flex;
+    flex-direction: row;
+}
+.columna{
+    max-width: 45%;
+}
+.columna h2,
+.columna h3{
+    text-align: center;
+}
+
+
+.columna p{
+    text-align: center;
+    margin: 2%;
+}
+
+.columna .fila p{
+    margin: 2%;
+}
+
+:root {
+    --color-principal: #003366; /* Azul oscuro */
+    --color-acento: #5CB85C;   /* Verde suave */
+    --color-fondo: #F8F9FA;    /* Gris claro */
+    --color-texto: #343A40;    /* Gris oscuro */
+    --color-blanco: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-fondo);
+    font-family: 'Arial', sans-serif;
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-image: url(../media/hoteles.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--color-blanco);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    border-bottom: 5px solid var(--color-acento);
+}
+
+.encabezado h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.func-prin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-principal);
+}
+
+.func-prin button {
+    background-color: var(--color-acento);
+    border: none;
+    color: var(--color-blanco);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.func-prin button:hover {
+    background-color: #4CA94C; /* Un verde ligeramente más oscuro */
+}
+
+.text-center h1,
+.text-center h3 {
+    color: var(--color-principal);
+}
+
+.text-lay {
+    background-color: var(--color-blanco);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-lay img {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.text-lay h1 {
+    color: var(--color-principal);
+}
+
+.text-lay p {
+    color: var(--color-texto);
+}
+.text-lay2{
+    transform: scale(0.9)translateY(-40%);
+}
+.form-container2 form label,
+.form-container2 form input,
+.form-container2 form button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-container2 {
+    display: flex; /* Cambiar a flex para poner los formularios en línea */
+    justify-content: space-around; /* Espaciado entre los formularios */
+    gap: 20px; /* Espacio entre ellos */
+    flex-wrap: wrap; /* Asegura que se adapten en pantallas más pequeñas */
+}
+
+.form {
+    flex: 1; /* Distribuye equitativamente el espacio */
+    min-width: 300px; /* Evita que los formularios se encojan demasiado */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega algo de sombra para diseño */
+    border: 1px solid #ddd; /* Línea para separar */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.flexrower {
+    display: flex; /* Ajusta para que cada entrada sea más compacta */
+    flex-direction: column; /* Asegura que los campos sigan alineados verticalmente */
+    margin-bottom: 15px;
+}
+
+button {
+    align-self: flex-end; /* Alinea el botón a la derecha */
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF; /* Azul atractivo */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Más oscuro al pasar el ratón */
+}
+
+.text-center2{
+    transform: translateY(5%);
+}
+.text-lay2{
+    transform: translateY(-60%);
+}
+
+.form-container2{
+    display: flex;
+    flex-direction: row;
+}
+.abajo{
+    display: flex;
+    flex-direction: row;
+    background-color: #003366;
+    color: white;
+}
+.fin{
+    background-color: #003366;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: white; /* Azul oscuro definido en tus variables */
+    color: black; /* Blanco */
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    transform: scale(2) translateY(-40%);
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.footer .heart {
+    color: red;
+    font-size: 1rem;
+}

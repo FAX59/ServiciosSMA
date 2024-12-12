@@ -1,0 +1,183 @@
+:root {
+    --color-principal: #003366; /* Azul oscuro */
+    --color-acento: #5CB85C;   /* Verde suave */
+    --color-fondo: #F8F9FA;    /* Gris claro */
+    --color-texto: #343A40;    /* Gris oscuro */
+    --color-blanco: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-fondo);
+    font-family: 'Arial', sans-serif;
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado {
+    background-image: url(../media/hoteles.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--color-blanco);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    border-bottom: 5px solid var(--color-acento);
+}
+
+.encabezado h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.func-prin {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-principal);
+    align-items: center;
+}
+
+.func-prin button {
+    background-color: var(--color-acento);
+    border: none;
+    color: var(--color-blanco);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.func-prin button:hover {
+    background-color: #4CA94C;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-130%);
+}
+
+.text-center h1, 
+.text-center h3 {
+    color: var(--color-principal);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.text-lay {
+    background-color: var(--color-blanco);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-lay img {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.text-lay h1 {
+    color: var(--color-principal);
+}
+
+.text-lay p {
+    color: var(--color-texto);
+}
+
+.vcolumna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.form-container {
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2);
+    width: 45%;
+}
+
+.form-container2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

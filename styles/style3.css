@@ -1,0 +1,204 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #1a73e8;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor central */
+.centro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.encabezado {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #1a73e8, #0077b6);
+    color: white;
+    border-radius: 8px;
+}
+
+.encabezado h2 {
+    margin-bottom: 10px;
+}
+
+.func-prin h3 {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.func-prin h3:hover {
+    color: #f4f4f9;
+}
+
+/* Secciones */
+.text-center {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.text-lay {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.text-lay img {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-lay .container {
+    flex: 1;
+}
+
+.text-lay-invertido {
+    flex-direction: row-reverse;
+}
+
+.text-lay h1 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+/* Directorio de prestadores */
+.prestadores {
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+
+.prescontainer {
+    text-align: center;
+}
+
+.prestadores img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* Formulario */
+.form-container {
+    background: #f4f4f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #1a73e8;
+}
+
+.flexrower {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.flexrower label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.flexrower input, 
+.flexrower textarea, 
+button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+.text-lay2 {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 8px;
+}
+
+.text-lay2 .fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.text-lay2 .fila img {
+    width: 30px;
+    height: 30px;
+}
+
+.text-lay2 p, .text-lay2 h2 {
+    margin-bottom: 10px;
+    color: #e8f0fe;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .text-lay {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-lay img {
+        width: 100%;
+    }
+
+    .func-prin h3 {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .prestadores img {
+        width: 40px;
+        height: 40px;
+    }
+}
